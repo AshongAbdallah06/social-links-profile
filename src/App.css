@@ -1,0 +1,85 @@
+main {
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 270px;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+p {
+    font-weight: 700;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 12px;
+    margin: 0;
+}
+
+.job {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    cursor: pointer;
+    border-radius: 6px;
+    width: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px 30px;
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    transition: all 0.15s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+
+@media (max-width: 385px) {
+    main {
+        width: 200px;
+    }
+
+    li {
+        width: 130px;
+    }
+}

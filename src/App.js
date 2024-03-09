@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import './index.css'
+import Profile from './Profile';
+import Links from './Links';
 
 function App() {
     return (
-        <div className="App">
-            
-        </div>
+        <main className="App">
+            <Profile />
+            <Links />
+        </main>
     );
 }
 
