@@ -24,7 +24,7 @@ const Links = () => {
 
 
     const listItems = links.map(link => (
-        <a href={link.linkUrl}>
+        <a href={link.linkUrl} target='_blank'>
             <li key={link.id}>{link.siteName}</li>
         </a>
     ))

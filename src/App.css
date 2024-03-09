@@ -31,13 +31,13 @@ p {
 }
 
 .location {
+    font-size: 14px;
     color: hsl(75, 94%, 57%);
-    font-size: 12px;
     margin: 0;
 }
 
 .job {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 20px;
 }
 
