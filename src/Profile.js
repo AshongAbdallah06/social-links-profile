@@ -13,7 +13,7 @@ const Profile = () => {
                 <p className="name">Ashong Abdallah</p>
                 <p className="location">Accra, Ghana</p>
                 <p className="job">
-                    "Front-end developer and avid reader"
+                    "Student and Junior Front-end developer"
                 </p>
             </div>
         </section>
